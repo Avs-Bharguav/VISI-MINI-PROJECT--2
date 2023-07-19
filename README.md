@@ -10,7 +10,12 @@ Here following is the schematic and the output viewed using ngspice. In the fold
 plot vout vin.  
 
   
-![dc](https://github.com/Avs-Bharguav/VISI-MINI-PROJECT--2/blob/main/DCanalysis/Screenshot%20from%202023-06-29%2019-03-49.png)  
+![dcanalysis Schematic](https://github.com/Avs-Bharguav/VISI-MINI-PROJECT--2/blob/main/DCanalysis/Screenshot%20from%202023-06-29%2019-03-49.png)  
+![dc analysis output]()  
+Here the Vm(where the output voltage and the input voltage are same) was found to be 0.67879v. 
+And the noise margin was found to be Vil= , Vih = , Voi = , V0h = ,.  
+Note: As we increase the size of the pmos the Vm come close to 0.5v. The Vm is not exactly in the middle as that is achived when we use a ratio of 3 or more between Wp and Wn.  
+
 
 
 
