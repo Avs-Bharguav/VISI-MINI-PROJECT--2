@@ -33,9 +33,17 @@ Here i am showing the schematic and output.
 After that you can go to the ngspice window and calculate the propagation delay that is time delay between Vin50 to vout50 that is 50% input voltage to 50% output voltage.  
 You can fing all the ngspice code used to calculate in the screenshorts in the delayanalysis folder.  
 we found: Vplh = 0.20767ns, Vphl = 3.22028ns, Trise = 0.101145ns and Tfall = 0.058780ns.  
+## Power_Analysis  
+The following schematic is drawn for the power analysis. A extra load capacitor is added.  
 
 
 
+![Schematic](https://github.com/Avs-Bharguav/VISI-MINI-PROJECT--2/assets/130825917/fd833ce7-18cd-490a-964e-4ebfc7c2336a)  
+Again you can go to the poweranalysis folder to check the settings used.  
+The next graph shows the current flow through the inverter. For the power calculation we integrate the over all current flown per cycle and multiply with the voltage that is 1.8v.  
 
-
+![current](https://github.com/Avs-Bharguav/VISI-MINI-PROJECT--2/assets/130825917/3f42e269-b1bd-4db9-9b4c-f34db1b585ae)  
+The calculations and the codes used for the power calculations can be fount in the screenshort in the folder.  
+We have calculater power for two cases 1> nmos w=2 l=1 2> nmos w=1 l=0.5.  
+case 1 Power = 1.68462uW; case 2 power = 0.578992uW.  
 
