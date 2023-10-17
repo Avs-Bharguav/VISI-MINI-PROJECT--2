@@ -1,5 +1,6 @@
 # VISI-MINI-PROJECT--2
 Noise, Delay and Power Analysis of CMOS inverter build using skywater130nm pdk  
+*NOTE: FACING SOME PROBLEMS IN DISPLAYING IMAGES IN PUBLIC DOMAIN. YOU CAN GO TO RESPECTIVE FOLDER AND VIEW THE SCREENSHORTS.*  
 ## Softwares  
 *esim* - Schematic drawing and netlist generation.  
 *Nspice* - For graphical analysis, delay calculations, power analysis, dc and transieant analysis and noise calculations.  
